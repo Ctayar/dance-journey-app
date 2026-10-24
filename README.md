@@ -1,16 +1,28 @@
-# React + Vite
+# Dance Journey App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Dance Journey App is a React-based web application designed to help beginner dancers identify their goals and overcome common hurdles. It features a welcoming home screen, an interactive assessment questionnaire, and a personalized curriculum page complete with motivational quotes and smooth animations.
 
-Currently, two official plugins are available:
+## Technologies & Libraries Used
+- React (Vite): Core frontend framework and build tool.
+- React Router (react-router-dom): Handles multi-screen navigation and passes state between routes.
+- Bootstrap: Provides responsive layout structuring and UI components (Cards, Buttons, Alerts).
+- Framer Motion: A third-party library used to create smooth, declarative page transition animations.
+- DummyJSON Quotes API: An external REST API integrated via fetch and async/await to deliver random motivational quotes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How to Run the Project Locally
 
-## React Compiler
+1. Clone the repository: 
+git clone https://github.com/Ctayar/dance-journey-app.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Navigate into the folder: 
+cd dance-journey-app
 
-## Expanding the ESLint configuration
+3. Install dependencies: 
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Start the development server: 
+npm run dev
+
+5. View the application: 
+Open your web browser and navigate to the local server link provided in your terminal (typically http://localhost:5173/).
