@@ -2,7 +2,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-
+// Import new background 
+import './index.css';
 // Import Bootstrap 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
