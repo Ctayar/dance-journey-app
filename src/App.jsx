@@ -10,7 +10,7 @@ import Curriculum from './Curriculum';
 export default function App() {
   return (
     // <Router> wraps everything so React knows to watch the URL for changes
-    <Router>
+    <Router basename="/dance-journey-app/">
       {/* className="container" is a Bootstrap rule that centers your app on the screen */}
       <div className="container mt-5">
         

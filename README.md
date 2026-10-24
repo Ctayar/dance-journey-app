@@ -25,4 +25,4 @@ npm install
 npm run dev
 
 5. View the application: 
-Open your web browser and navigate to the local server link provided in your terminal (typically http://localhost:5173/).
+Open your web browser and navigate to the local server link provided in your terminal, then append the project name (typically http://localhost:5173/dance-journey-app/).
